@@ -2,23 +2,22 @@ import { motion } from "framer-motion";
 
 const experiences = [
     {
-        title: "Software Engineering Intern",
-        company: "Tech Solutions Inc.",
-        duration: "June 2024 - Present",
+        title: "Web Development - Intern",
+        company: "CODEBIND TECHNOLOGIES",
+        duration: "December 2024",
         responsibilities: [
-            "Assisted in developing and maintaining RESTful APIs using Node.js and Express.",
-            "Collaborated with the frontend team to integrate APIs with React applications.",
-            "Participated in agile ceremonies and code reviews to ensure code quality.",
+            "Developed hands-on expertise in front-end web development by contributing to live project tasks.",
+            "Built and optimized responsive user interfaces using HTML, CSS, and JavaScript.",
+            "Gained solid exposure to full-stack development methodologies and collaborative workflows within software development teams.",
         ],
     },
     {
-        title: "Web Development Intern",
-        company: "Startup Hub",
-        duration: "Jan 2024 - May 2024",
+        title: "Data Science - Intern",
+        company: "Top Tech Developers",
+        duration: "July 2025 - Sept 2025",
         responsibilities: [
-            "Built responsive landing pages and user interfaces using HTML, CSS, and React.",
-            "Optimized website performance, improving load times by 20%.",
-            "Worked closely with designers to implement pixel-perfect UI designs.",
+            "Aspiring Data Science enthusiast with strong analytical and problem-solving skills, proficient in Python, data analysis, and foundational machine learning techniques to extract meaningful insights from data.",
+            "Passionate about applying data-driven solutions to real-world problems, continuously learning and staying updated with emerging trends in Data Science and Artificial Intelligence.",
         ],
     },
 ];
