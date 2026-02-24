@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaCode, FaLaptopCode, FaTools, FaBrain } from "react-icons/fa";
+import { FaCode, FaLaptopCode, FaTools } from "react-icons/fa";
 
 const skillCategories = [
     {
@@ -26,16 +26,6 @@ const skillCategories = [
         skills: [
             { name: "Git & GitHub", level: 85 },
             { name: "VS Code", level: 95 },
-            { name: "Linux / Bash", level: 75 },
-        ],
-    },
-    {
-        title: "Core / AI Concepts",
-        icon: <FaBrain className="text-purple-400" />,
-        skills: [
-            { name: "Machine Learning Concepts", level: 70 },
-            { name: "Data Structures", level: 85 },
-            { name: "DBMS / SQL", level: 80 },
         ],
     },
 ];
