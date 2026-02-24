@@ -3,28 +3,11 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
     {
-        title: "E-Commerce Web App",
-        description: "A full-stack e-commerce platform with secure payment integration, user authentication, and an admin dashboard.",
-        tech: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+        title: "Event Management",
+        description: "This project focuses on building a responsive and interactive website using modern web technologies such as HTML, CSS, and JavaScript. It involves front-end development and user interface design to efficiently handle and display dynamic content.",
+        tech: ["HTML", "CSS", "JavaScript"],
         github: "#",
         live: "#",
-        image: "https://images.unsplash.com/photo-1557821552-17105153ce67?auto=format&fit=crop&q=80&w=800",
-    },
-    {
-        title: "AI Image Generator",
-        description: "An AI-powered web application that generates images from text prompts using DALL-E API and stable diffusion models.",
-        tech: ["React", "Python", "FastAPI", "OpenAI API"],
-        github: "#",
-        live: "#",
-        image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=800",
-    },
-    {
-        title: "Portfolio Website",
-        description: "A modern, responsive, and animated portfolio to showcase my skills, projects, and achievements as a software engineer.",
-        tech: ["React", "Vite", "Tailwind CSS", "Framer Motion"],
-        github: "#",
-        live: null,
-        image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=800",
     },
 ];
 
@@ -57,15 +40,6 @@ const Projects = () => {
                             transition={{ duration: 0.5, delay: index * 0.15 }}
                             className="glass rounded-2xl overflow-hidden group hover:-translate-y-2 transition-transform duration-300 flex flex-col h-full"
                         >
-                            <div className="relative overflow-hidden h-48">
-                                <div className="absolute inset-0 bg-dark/20 group-hover:bg-transparent transition-colors z-10"></div>
-                                <img
-                                    src={project.image}
-                                    alt={project.title}
-                                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                                />
-                            </div>
-
                             <div className="p-6 flex flex-col flex-grow">
                                 <h3 className="text-2xl font-semibold text-white mb-2">
                                     {project.title}
