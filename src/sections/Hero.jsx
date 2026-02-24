@@ -64,7 +64,7 @@ const Hero = () => {
                             <FaLinkedin />
                         </a>
                         <a
-                            href="mailto:contact@example.com"
+                            href="mailto:rohithkumarm2006@gmail.com"
                             className="text-gray-400 hover:text-primary transition-colors text-2xl"
                         >
                             <FaEnvelope />

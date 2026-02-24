@@ -26,14 +26,14 @@ const Navbar = () => {
     return (
         <nav
             className={`fixed w-full top-0 z-50 transition-all duration-300 ${scrolled
-                    ? "glass shadow-lg py-4"
-                    : "bg-transparent py-6"
+                ? "glass shadow-lg py-4"
+                : "bg-transparent py-6"
                 }`}
         >
             <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
                 {/* Logo */}
                 <div className="text-2xl font-bold tracking-wider text-white">
-                    Raghu <span className="text-primary">D</span>
+                    Rohith Kumar M <span className="text-primary"></span>
                 </div>
 
                 {/* Desktop Nav */}
