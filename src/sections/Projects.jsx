@@ -58,29 +58,6 @@ const Projects = () => {
                                         </span>
                                     ))}
                                 </div>
-
-                                <div className="flex gap-4 mt-auto">
-                                    <a
-                                        href={project.github}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="flex items-center gap-2 text-sm text-gray-300 hover:text-white transition-colors"
-                                    >
-                                        <FaGithub size={18} />
-                                        Code
-                                    </a>
-                                    {project.live && (
-                                        <a
-                                            href={project.live}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="flex items-center gap-2 text-sm text-gray-300 hover:text-primary transition-colors"
-                                        >
-                                            <FaExternalLinkAlt size={16} />
-                                            Live Demo
-                                        </a>
-                                    )}
-                                </div>
                             </div>
                         </motion.div>
                     ))}
