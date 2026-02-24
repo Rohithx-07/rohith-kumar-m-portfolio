@@ -4,24 +4,18 @@ import { FaAward, FaTrophy, FaCertificate } from "react-icons/fa";
 const achievements = [
     {
         title: "AI & Machine Learning Certification",
-        issuer: "Coursera / DeepLearning.AI",
         date: "Dec 2024",
-        icon: <FaCertificate className="text-green-400 text-3xl" />,
-        description: "Completed comprehensive coursework in neural networks, deep learning, and practical ML applications.",
+        icon: <FaCertificate className="text-green-400 text-3xl" />
     },
     {
         title: "Full Stack Web Development",
-        issuer: "Udemy Bootcamp",
         date: "Aug 2024",
-        icon: <FaAward className="text-blue-400 text-3xl" />,
-        description: "Built 15+ hands-on projects mastering React, Node.js, and MongoDB.",
+        icon: <FaAward className="text-blue-400 text-3xl" />
     },
     {
         title: "Hackathon Winner - Smart Campus",
-        issuer: "National Tech Fest",
         date: "Mar 2024",
-        icon: <FaTrophy className="text-yellow-400 text-3xl" />,
-        description: "Developed an IoT based smart parking solution, securing 1st place among 50+ teams.",
+        icon: <FaTrophy className="text-yellow-400 text-3xl" />
     },
 ];
 
@@ -62,15 +56,10 @@ const Certifications = () => {
                                     {item.icon}
                                 </div>
 
-                                <h3 className="text-xl font-bold text-white mb-2">{item.title}</h3>
-                                <div className="flex items-center justify-between mb-4">
-                                    <span className="text-sm font-medium text-primary">{item.issuer}</span>
+                                <h3 className="text-xl font-bold text-white mb-3">{item.title}</h3>
+                                <div className="flex items-center">
                                     <span className="text-xs text-gray-500 bg-white/5 px-2 py-1 rounded">{item.date}</span>
                                 </div>
-
-                                <p className="text-gray-400 text-sm leading-relaxed">
-                                    {item.description}
-                                </p>
                             </div>
                         </motion.div>
                     ))}
