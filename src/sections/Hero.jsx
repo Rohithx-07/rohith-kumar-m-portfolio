@@ -85,7 +85,7 @@ const Hero = () => {
 
                         <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-dark overflow-hidden shadow-2xl z-10 bg-darker flex items-center justify-center">
                             {/* Fallback avatar if no image exists yet */}
-                            <div className="text-6xl font-bold text-gray-700">RD</div>
+                            <div className="text-6xl font-bold text-gray-700">Rohith Kumar M</div>
                         </div>
 
                         {/* Orbital ring rings */}
