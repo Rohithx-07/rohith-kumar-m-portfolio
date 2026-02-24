@@ -24,7 +24,7 @@ const Hero = () => {
                         Welcome to my portfolio
                     </h2>
                     <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-                        Hi, I'm <span className="text-white text-glow">Raghu D</span>
+                        Hi, I'm <span className="text-white text-glow">Rohith Kumar M</span>
                         <br />
                         <span className="text-gray-400 text-3xl md:text-5xl mt-2 block">
                             Software Engineer
@@ -44,19 +44,11 @@ const Hero = () => {
                         >
                             View Projects
                         </Link>
-                        <a
-                            href="/resume.pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="px-8 py-3 border border-gray-600 text-gray-300 font-medium rounded-full hover:bg-white/5 transition-all"
-                        >
-                            Download Resume
-                        </a>
                     </div>
 
                     <div className="flex items-center justify-center md:justify-start gap-6 pt-6">
                         <a
-                            href="https://github.com"
+                            href="https://github.com/Rohithx-07/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-gray-400 hover:text-white transition-colors text-2xl"
@@ -64,7 +56,7 @@ const Hero = () => {
                             <FaGithub />
                         </a>
                         <a
-                            href="https://linkedin.com"
+                            href="https://www.linkedin.com/in/rohith-kumar-m-a043ab2a3/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-gray-400 hover:text-blue-500 transition-colors text-2xl"
