@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Poppins", sans-serif;
+  --color-primary-black: #0a0a0a;
+  --color-primary-white: #f8f8f8;
+  --color-soft-grey: #888888;
+}
+
+/* Global resets for the minimal B&W look */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-primary-black);
+  color: var(--color-primary-white);
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar for a premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-primary-black);
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-soft-grey);
+}
+
+::selection {
+  background-color: var(--color-primary-white);
+  color: var(--color-primary-black);
+}
+
+/* =========================================================
+   TICKER COMPONENT STYLES
+   ========================================================= */
+.ticker {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: var(--color-primary-black);
+  padding: 1rem 0;
+  z-index: 20;
+}
+
+.ticker-track {
+  display: flex;
+  white-space: nowrap;
+  animation: ticker-scroll 35s linear infinite;
+  width: max-content;
+}
+
+.ticker-track:hover {
+  animation-play-state: paused;
+}
+
+.ticker-item {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-soft-grey);
+  padding: 0 1.5rem;
+}
+
+.ticker-item:hover {
+  color: var(--color-primary-white);
+  cursor: default;
+}
+
+.ticker-sep {
+  margin-left: 1.5rem;
+  color: #333;
+}
+
+@keyframes ticker-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
